@@ -8,7 +8,9 @@
     integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
     crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css" />
     </head>
     <body class="body">
@@ -19,9 +21,9 @@
                 <nav class="container-nav" >
                 <a lang="en" href="./index.html" class="logo"> <span class="logo-web">Web</span>Studio</a>
                 <ul class="nav-list">
-                    <li class="item"> <a class="nav-links current" href="./index.html"> Студия </a> </li>
-                    <li class="item"> <a class="nav-links current" href="./portfolio.html"> Портфолио </a> </li>
-                    <li class="item"> <a class="nav-links current" href=""> Контакты </a> </li>
+                    <li class="item"> <a class="nav-links current " href="./index.html"> Студия </a> </li>
+                    <li class="item"> <a class="nav-links " href="./portfolio.html"> Портфолио </a> </li>
+                    <li class="item"> <a class="nav-links " href=""> Контакты </a> </li>
                 </ul>
                 </nav>
                 <ul class="cont-link list" >
@@ -105,9 +107,24 @@
        <section class="whotwedo-section">
             <div class="container"><h2 class="imeges-title">Чем мы занимаемся</h2>
                 <ul class="imeges-list">
-                    <li class="whotwedo-item"> <img src="./images/img-1.png" alt="#" width="370" height="294"></li>
-                    <li class="whotwedo-item"> <img src="./images/img-2.png" alt="#" width="370" height="294"></li>
-                    <li class="whotwedo-item"> <img src="./images/img-3.png" alt="#" width="370" height="294"></li>
+                    <li class="whotwedo-item"> 
+                        <div class="whotwedo-overlay">
+                            <img src="./images/img-2.png" alt="#" width="370" height="294">
+                            <p class="whotwedo-overlay-text">Десктопные приложения</p>
+                        </div>
+                    </li>
+                    <li class="whotwedo-item"> 
+                        <div class="whotwedo-overlay">
+                            <img src="./images/img-3.png" alt="#" width="370" height="294">
+                            <p class="whotwedo-overlay-text">Мобильные приложения</p>
+                        </div>
+                    </li>
+                    <li class="whotwedo-item"> 
+                        <div class="whotwedo-overlay">
+                            <img src="./images/img-1.png" alt="#" width="370" height="294">
+                            <p class="whotwedo-overlay-text">Дизайнерские решения</p>
+                        </div>
+                    </li>
                 </ul>
             </div>
        </section> 
@@ -310,6 +327,7 @@
                 </div>
             </section>
         </main>
+        
 
        <!--Footer-->
         <footer class="footer"> 
@@ -370,6 +388,7 @@
     
     
         </footer>
+        
     </body>
 
 </html>

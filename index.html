@@ -9,7 +9,7 @@
     crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;700;900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css" />
     </head>
@@ -57,7 +57,7 @@
             <div class="hero-container">
                 <h1 class="hero-title">
                     Эффективные решения для вашего бизнеса</h1> 
-                <button class="hero-button" type="button">Заказать услугу</button>
+                <button class="hero-button" type="button"  data-modal-open>Заказать услугу</button>
             </div>
         </section>
 
@@ -109,19 +109,19 @@
                 <ul class="imeges-list">
                     <li class="whotwedo-item"> 
                         <div class="whotwedo-overlay">
-                            <img src="./images/img-2.png" alt="#" width="370" height="294">
+                            <img src="./images/img-2.jpg" alt="#" width="370" height="294">
                             <p class="whotwedo-overlay-text">Десктопные приложения</p>
                         </div>
                     </li>
                     <li class="whotwedo-item"> 
                         <div class="whotwedo-overlay">
-                            <img src="./images/img-3.png" alt="#" width="370" height="294">
+                            <img src="./images/img-3.jpg" alt="#" width="370" height="294">
                             <p class="whotwedo-overlay-text">Мобильные приложения</p>
                         </div>
                     </li>
                     <li class="whotwedo-item"> 
                         <div class="whotwedo-overlay">
-                            <img src="./images/img-1.png" alt="#" width="370" height="294">
+                            <img src="./images/img-1.jpg" alt="#" width="370" height="294">
                             <p class="whotwedo-overlay-text">Дизайнерские решения</p>
                         </div>
                     </li>
@@ -356,28 +356,28 @@
                 <ul class="social-list-footer">
                     <li class="footer-social-item">
                         <a href="" class="footer-social-link">
-                            <svg class="social-list-icon">
+                            <svg class="footer-icon">
                                 <use href="./images/sprite.svg#instagram"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="footer-social-item">
                         <a href="" class="footer-social-link">
-                            <svg class="social-list-icon">
+                            <svg class="footer-icon">
                                 <use href="./images/sprite.svg#twitter"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="footer-social-item">
                         <a href="" class="footer-social-link">
-                            <svg class="social-list-icon">
+                            <svg class="footer-icon">
                                 <use href="./images/sprite.svg#facebook"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="footer-social-item">
                         <a href="" class="footer-social-link">
-                            <svg class="social-list-icon">
+                            <svg class="footer-icon">
                                 <use href="./images/sprite.svg#linkedin"></use>
                             </svg>
                         </a>
@@ -388,7 +388,16 @@
     
     
         </footer>
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+                <button type="button" class="modal-close-button" data-modal-close>
+                    <svg class="close-button-svg">
+                        <use href="./icons/sprite-svg.svg#icon-close-btn"></use>
+                    </svg>
+                </button>
+            </div>
         
+        <script src="./js/modal.js"></script>
     </body>
 
 </html>

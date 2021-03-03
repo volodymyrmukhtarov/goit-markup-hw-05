@@ -170,11 +170,13 @@ button {
       rgba(47, 48, 58, 0.4)
     ),
     url(../images/hero-bg.jpg);
+  max-width: 1600px;
+  background-repeat: no-repeat;
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
+  margin: 0 auto;
 }
-
 .hero-container {
   max-width: 695px;
   margin-right: auto;
@@ -182,13 +184,15 @@ button {
 }
 
 .hero-title {
+  margin: 0 auto;
+  max-width: 696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  margin-bottom: 30px;
 }
 .hero-button {
   font-weight: 900;
@@ -296,6 +300,13 @@ button {
   text-align: center;
   text-transform: uppercase;
 }
+.whotwedo-text-pading {
+  padding: 27px 80px 27px 89px;
+}
+.whotwedo-text-pading3 {
+  padding: 27px 80px 27px 99px;
+}
+
 /* -- Team -- */
 
 .our-team {

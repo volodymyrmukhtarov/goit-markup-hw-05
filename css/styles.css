@@ -279,7 +279,7 @@ button {
   display: flex;
 }
 
-.imeges-list :not(:last-child) {
+.whotwedo-item {
   margin-right: 30px;
 }
 .whotwedo-overlay {
@@ -310,7 +310,7 @@ button {
 /* -- Team -- */
 
 .our-team {
-  padding: 95px;
+  padding: 95px 0px;
   background-color: #f5f4fa;
 }
 .our-team-title {
